@@ -1,0 +1,5 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE bank (accountNumber INTEGER PRIMARY KEY, name VARCHAR(20), Balance INTEGER);
+INSERT INTO bank VALUES(222,'Venkatesh',2434);
+COMMIT;
